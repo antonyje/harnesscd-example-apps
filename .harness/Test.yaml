@@ -1,0 +1,14 @@
+inputSet:
+  name: Test
+  identifier: Test
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Unidirectional
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+input>
