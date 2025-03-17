@@ -1,0 +1,11 @@
+inputSet:
+  name: New Input Set
+  identifier: New_Input_Set
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Unidirectional
+    properties:
+      ci:
+        codebase:
+          build: <+input>
