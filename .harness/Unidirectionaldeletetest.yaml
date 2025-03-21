@@ -66,10 +66,4 @@ pipeline:
                         - account._account_all_users
                     isAutoRejectEnabled: false
                     approverInputs: []
-              - step:
-                  name: ttt
-                  identifier: ttt
-                  template:
-                    templateRef: account.Test
-                    versionLabel: V1
         tags: {}
